@@ -1,0 +1,7 @@
+First, install Rust: https://www.rust-lang.org/learn/get-started
+
+Assuming you want to use VS Code, https://code.visualstudio.com/docs/languages/rust
+
+	They reccommend installing rust-analyzer in VS Code.
+	
+    
