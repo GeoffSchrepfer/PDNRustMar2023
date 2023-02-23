@@ -1,0 +1,22 @@
+Before getting into code, a very brief history of the Rust programming language:
+	- Started life circa 2006 as a personal project of Steven Hoare, a developer at Mozilla.
+	- Officially announced by Mozilla in 2010.
+	- First stable release 1.0 on May 15, 2015.
+	- Due to Covid-19, layoffs and other business realities, Mozilla had to abandon support for the project around 2020.
+	- The Rust foundation was formed Feb 8 2021 by AWS, Huawei, Google, Microsoft, and Mozilla.
+	* (This factoids came from the excellent Wikipedia article https://en.wikipedia.org/wiki/Rust_(programming_language) )
+
+So, what is Rust?
+	- A multi-paradigm, high-level, general purpose programming language.
+	- Paradigms include concurrent, functional, imperative, and structured, but not object-oriented.
+
+What is it good for?
+
+
+Assuming you want to use VS Code, https://code.visualstudio.com/docs/languages/rust
+
+	Microsoft reccommends installing rust-analyzer in VS Code.
+	
+The Rust Foundation maintains a documentation web site at: https://doc.rust-lang.org/book/title-page.html
+
+    
