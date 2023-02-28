@@ -44,7 +44,7 @@ Something that actually does something should use Cargo
 	- $ cargo --version to see if it was successfully installed.
 	- It manages a project's dependencies.
 	- .toml extension is from "Tom's Obvious, Minimal Language"
-	- $ cargo new
+	- $ cargo new --- creates the folder and scaffolds the project.
 	- $ cargo build
 	- $ cargo run
 
