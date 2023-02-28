@@ -48,5 +48,11 @@ Something that actually does something should use Cargo
 	- $ cargo build
 	- $ cargo run
 
+Rust programs are contained by crates:
+	- binary crate is one that contains an executable.
+	- library crate is one that contains code intended to be used by other crates and cannot be 
+			executed on its own.
+	- Ensuring Reproducible Builds with the Cargo.lock File
 
-
+Rust binary crates can have an entry point named something other than main.rs, but there are consequences:
+	https://stackoverflow.com/questions/62180215/renaming-main-rs-and-using-with-cargo
