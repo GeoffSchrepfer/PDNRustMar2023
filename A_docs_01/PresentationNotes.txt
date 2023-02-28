@@ -4,19 +4,49 @@ Before getting into code, a very brief history of the Rust programming language:
 	- First stable release 1.0 on May 15, 2015.
 	- Due to Covid-19, layoffs and other business realities, Mozilla had to abandon support for the project around 2020.
 	- The Rust foundation was formed Feb 8 2021 by AWS, Huawei, Google, Microsoft, and Mozilla.
-	* (This factoids came from the excellent Wikipedia article https://en.wikipedia.org/wiki/Rust_(programming_language) )
+		-- Membership list: https://foundation.rust-lang.org/members/
+	* (History bulletes came from the excellent Wikipedia article https://en.wikipedia.org/wiki/Rust_(programming_language) )
 
 So, what is Rust?
 	- A multi-paradigm, high-level, general purpose programming language.
 	- Paradigms include concurrent, functional, imperative, and structured, but not object-oriented.
 
 What is it good for?
+	- Large teams of devlopers working on system programming.
+	- Rust is for students and those who are interested in learning about systems concepts (think OS development).
+	- Companies doing command line tools, web services, DevOps tooling, embedded devices, audio and video 
+		analysis and transcoding, cryptocurrencies, bioinformatics, search engines, Internet of Things 
+		applications, machine learning, and even major parts of the Firefox web browser.
+	- Open source projects
+	- Rust is for people who crave speed and stability in a language. 
+	- (The above statements were taken from the Rust Programming Handbook https://doc.rust-lang.org/book/ch00-00-introduction.html)
 
+Your mileage may vary
+	- "It's not the difference between Rust and C++, it's the difference between LLVM (Clang) and GCC:"
+		-- The better optimization strategy of the Gnu compiler results in the better 
+			performance: https://stackoverflow.com/questions/70797805/performance-difference-rust-and-c
 
 Assuming you want to use VS Code, https://code.visualstudio.com/docs/languages/rust
 
 	Microsoft reccommends installing rust-analyzer in VS Code.
 	
-The Rust Foundation maintains a documentation web site at: https://doc.rust-lang.org/book/title-page.html
 
     
+The Microsoft online resources are good for getting set up to use VSCode & Rust, 
+but the Rust Foundation tutorial at https://doc.rust-lang.org/book/title-page.html covers 
+the topics you need to know in a well-organized fashion, so that's what I intend to use for this demo.
+
+"Hello World" can be created simply by creating a folder and adding a main.rs file which contains the commands
+	to print "Hello, world!" 
+
+Something that actually does something should use Cargo
+	- Cargo is the  is Rust’s build system and package manager. 
+	- $ cargo --version to see if it was successfully installed.
+	- It manages a project's dependencies.
+	- .toml extension is from "Tom's Obvious, Minimal Language"
+	- $ cargo new
+	- $ cargo build
+	- $ cargo run
+
+
+
